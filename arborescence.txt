@@ -1,0 +1,43 @@
+project/
+│
+├── include/
+│   ├── DataLayer/
+│   │   ├── Character.h
+│   │   ├── Player.h
+│   │   ├── Enemy.h
+│   │   ├── Ally.h
+│   │   ├── Item.h
+│   │   ├── Potion.h
+│   │   ├── Weapon.h
+│   │   ├── Armor.h
+│   │   └── DataHandler.h
+│   │
+│   ├── BusinessLogicLayer/
+│   │   ├── GameManager.h
+│   │   └── CombatManager.h
+│   │
+│   └── PresentationLayer/
+│       ├── CLI.h
+│       └── GUI.h (interface graphique à voir suivant la complexité)
+│
+├── src/
+│   ├── DataLayer/
+│   │   ├── Character.cpp
+│   │   ├── Player.cpp
+│   │   ├── Enemy.cpp
+│   │   ├── Ally.cpp
+│   │   ├── Item.cpp
+│   │   ├── Potion.cpp
+│   │   ├── Weapon.cpp
+│   │   ├── Armor.cpp
+│   │   └── DataHandler.cpp
+│   │
+│   ├── BusinessLogicLayer/
+│   │   ├── GameManager.cpp
+│   │   └── CombatManager.cpp
+│   │
+│   └── PresentationLayer/
+│       ├── CLI.cpp
+│       └── GUI.cpp (interface graphique à voir suivant la complexité)
+│
+└── main.cpp
