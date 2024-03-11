@@ -1,0 +1,10 @@
+Warrior
+100
+14
+10
+None
+None
+10
+Weapon
+Sword
+5

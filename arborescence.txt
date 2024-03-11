@@ -1,6 +1,35 @@
-project/
+tlsf_game/
+│
+├── bin/
+│   └── main
+│
+├── build/
+│   ├── BusinessLogicLayer/
+│   │   ├── GameManager.o
+│   │   └── FightManager.o
+│   │
+│   ├── DataLayer/
+│   │   ├── Character.o
+│   │   ├── Player.o
+│   │   ├── Enemy.o
+│   │   ├── Ally.o
+│   │   ├── Item.o
+│   │   ├── Potion.o
+│   │   ├── Weapon.o
+│   │   ├── Armor.o
+│   │   ├── ItemType.o
+│   │   └── DataHandler.o
+│   │
+│   └── PresentationLayer/
+│       ├── CLI.o
+│       ├── MusicPlayer.o
+│       └── GUI.o (interface graphique sera développée plus tard)
 │
 ├── include/
+│   ├── BusinessLogicLayer/
+│   │   ├── GameManager.h
+│   │   └── FightManager.h
+│   │
 │   ├── DataLayer/
 │   │   ├── Character.h
 │   │   ├── Player.h
@@ -10,34 +39,34 @@ project/
 │   │   ├── Potion.h
 │   │   ├── Weapon.h
 │   │   ├── Armor.h
+│   │   ├── ItemType.h
 │   │   └── DataHandler.h
-│   │
-│   ├── BusinessLogicLayer/
-│   │   ├── GameManager.h
-│   │   └── CombatManager.h
 │   │
 │   └── PresentationLayer/
 │       ├── CLI.h
-│       └── GUI.h (interface graphique à voir suivant la complexité)
+│       ├── MusicPlayer.h
+│       └── GUI.h (interface graphique sera développée plus tard)
 │
-├── src/
-│   ├── DataLayer/
-│   │   ├── Character.cpp
-│   │   ├── Player.cpp
-│   │   ├── Enemy.cpp
-│   │   ├── Ally.cpp
-│   │   ├── Item.cpp
-│   │   ├── Potion.cpp
-│   │   ├── Weapon.cpp
-│   │   ├── Armor.cpp
-│   │   └── DataHandler.cpp
-│   │
-│   ├── BusinessLogicLayer/
-│   │   ├── GameManager.cpp
-│   │   └── CombatManager.cpp
-│   │
-│   └── PresentationLayer/
-│       ├── CLI.cpp
-│       └── GUI.cpp (interface graphique à voir suivant la complexité)
-│
-└── main.cpp
+└── src/
+    ├── BusinessLogicLayer/
+    │   ├── GameManager.cpp
+    │   └── FightManager.cpp
+    │
+    ├── DataLayer/
+    │   ├── Character.cpp
+    │   ├── Player.cpp
+    │   ├── Enemy.cpp
+    │   ├── Ally.cpp
+    │   ├── Item.cpp
+    │   ├── Potion.cpp
+    │   ├── Weapon.cpp
+    │   ├── Armor.cpp
+    │   ├── ItemType.cpp
+    │   └── DataHandler.cpp
+    │
+    └── PresentationLayer/
+    │   ├── CLI.cpp
+    │   ├── MusicPlayer.cpp
+    │   └── GUI.cpp (interface graphique sera développée plus tard)
+    │
+    └── main.cpp
