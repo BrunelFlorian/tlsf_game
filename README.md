@@ -1,11 +1,3 @@
-à installer (lib) :
-```
-sudo apt-get update
-sudo apt-get install libsdl2-dev libsdl2-mixer-dev
-```
-
-
-
 # tlsf_game
 The Legend of Segmentation Fault: A C Tale
 
